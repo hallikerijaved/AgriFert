@@ -32,7 +32,7 @@ A React-based web application for agricultural fertilizer management and recomme
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone 
 cd frontend
 ```
 
