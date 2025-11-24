@@ -32,7 +32,7 @@ A React-based web application for agricultural fertilizer management and recomme
 
 1. Clone the repository:
 ```bash
-git clone 
+git clone
 cd frontend
 ```
 
@@ -60,25 +60,24 @@ The application will open at `http://localhost:3000`
 ```
 src/
 ├── Component/          # Reusable components organized by developer
+│   ├── Javed/         # System manager components
+│   ├── Sarvesh/       # Dealer management components
+│   ├── Raj/           # Admin components
+│   ├── Amol/          # Laboratory components
+│   ├── common/        # Shared components
+│   └── layout/        # Layout components
 ├── pages/             # Page components
-├── images/            # Static images
+│   ├── Javed/         # System manager pages
+│   ├── Sarvesh/       # Dealer pages
+│   ├── Raj/           # Admin pages
+│   ├── Amol/          # Laboratory pages
+│   └── common/        # Shared pages
+├── images/            # Static images organized by module
 ├── styles/            # CSS and styling files
 ├── router/            # Application routing
 ├── App.js             # Main application component
 └── index.js           # Application entry point
 ```
-
-## Development Team
-
-The project is organized with components and pages developed by different team members:
-- Kande
-- Lasindu
-- Oshini
-- Rahul
-- Sudarshan
-- Thisaravi
-- Veenath
-- Nilupul
 
 ## Contributing
 
